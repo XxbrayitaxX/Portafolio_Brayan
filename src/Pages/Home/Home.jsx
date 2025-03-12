@@ -3,8 +3,8 @@ export const Home = ()=> {
   return (
 
     <>
-    <Main />
+    <Main/>
     </>
-   
+  
   )
 }  

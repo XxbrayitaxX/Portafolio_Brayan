@@ -1,0 +1,12 @@
+/* SectionP.css */
+.sectionP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Asegura que la sección ocupe al menos la altura de la ventana */
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Color de fondo opcional */
+    margin-left: 550px;
+  }

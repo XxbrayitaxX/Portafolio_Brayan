@@ -1,5 +1,5 @@
 header {
-  background-color: #000; /* Fondo negro */
+  background-color: black; /* Fondo*/
   color: #fff; /* Texto blanco */
   display: flex;
   justify-content: space-between;
