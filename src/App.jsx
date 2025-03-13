@@ -1,23 +1,24 @@
 import React from 'react'
 import { Home } from './Pages/Home/Home'
 import { Header } from './Layouts/Header/Header'
-import { SectionP } from './Layouts/SectionP/SectionP'
 import { Routes , Route } from 'react-router-dom'
 import { Footer } from './Layouts/Footer/Footer'
+import { About } from './Pages/Home/About/About'
+import { Portafolio } from './Pages/Home/Portafolio/Portafolio'
+import { Educacion } from './Pages/Home/Educacion/Educacion'
 
 export const App = () => {
 
   return (
     <>
-    <div>
       <Header/>
-      <SectionP/>
         <Routes>
-            <Route path="/" element="" />
-            <Route path="/acerca de mi"  />
+            <Route path="/" element={<Home/>} />
+            <Route path="/educasion" element={<Educacion/>}  />
+            <Route path="/About" element={<About/>}  />
+            <Route path="/Portafolio" element={<Portafolio/>}  />
         </Routes>
         <Footer/>
-    </div>
     </>
   )
 }

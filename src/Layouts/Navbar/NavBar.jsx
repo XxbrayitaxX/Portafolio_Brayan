@@ -8,9 +8,9 @@ export const NavBar = () => {
         <nav>
             <ul className="navbar-links">
                 <ItemNavBar route='/' content='inicio' />
-                <ItemNavBar route='/class1' content='acerca de mi' />
-                <ItemNavBar route='/class2' content='estudios' />
-                <ItemNavBar route='/class3' content='portafolio' />
+                <ItemNavBar route='/About' content='acerca de mi' />
+                <ItemNavBar route='/educasion' content='Educasion' />
+                <ItemNavBar route='/Portafolio' content='portafolio' />
             </ul>
         </nav>
         </>
