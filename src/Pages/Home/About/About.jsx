@@ -18,9 +18,10 @@ export const About = () => {
 
                     <p className="P-Profile">la comunicación y el trabajo en equipo es para mí esencial para poder crecer como desarrollador. Soy proactivo y metódico, siempre busco nuevos retos y me adapto fácilmente a los cambios, estoy abierto a aprender nuevas tecnologías y lenguajes.</p>
 
-                    <p className="P-Profile">Tecnologias: html,css,JavaScript,reactJS,mysql,git,mongoDB</p>
+                    <p className="P-Profile">Tecnologias: html,css,JavaScript,reactJS,
+                        mysql,git,mongoDB</p>
 
-                    <p>________________________________________________________</p>
+                    <p>______________________________________</p>
 
                     <h2 className="TitleP2">¿Que puedo hacer?</h2>
 
@@ -31,7 +32,7 @@ export const About = () => {
                         <h3 className="titleP3">Back-end</h3>
                         <p className="P-Profile">tengo poco conocimiento de backend puedo crear APis, utilisar nodeJS y diferentes tecnologías de bases de datos.</p>
                     </div>
-                    <p>________________________________________________________</p>
+                    <p>______________________________________</p>
                 </div>
             </section>
         </>

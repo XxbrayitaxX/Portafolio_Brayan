@@ -1,23 +1,86 @@
-.titleE{
-    font-family:Arial, Helvetica, sans-serif ;
+.titleE {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    margin: 40px 0px 40px 0px;
+    margin: 40px 0;
+    text-align: center;
 }
 
-.imgCertificados{
+.imgCertificados {
     height: 400px;
     width: 400px;
     border-radius: 25px;
+    object-fit: cover;
 }
 
-.sectionE{
-    height: 120vh;
+/* Sección de certificados */
+.sectionE {
+    min-height: 100vh; /* Ajuste de altura flexible */
     display: flex;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
+    padding: 2rem; /* Añadido para evitar desbordes */
+    box-sizing: border-box;
 }
 
-.DivCertificado{
+/* Contenedor de certificados */
+.DivCertificado {
     display: flex;
     gap: 5rem;
+    flex-wrap: wrap; /* Para que se acomoden automáticamente en dispositivos pequeños */
+    justify-content: center; /* Centrar los elementos */
+}
+
+/* Móviles (hasta 480px) */
+@media (max-width: 480px) {
+    .sectionE{
+        height: 120vh;
+    }
+    
+    .titleE {
+        font-size: 35px;
+        margin: 20px 0;
+    }
+
+    .imgCertificados {
+        height: 200px;
+        width: 200px;
+    }
+
+    .DivCertificado {
+        gap: 2rem;
+        flex-direction: column; /* Certificados uno debajo del otro */
+    }
+}
+
+/* Tablets (481px a 1024px) */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .titleE {
+        font-size: 40px;
+        margin: 30px 0;
+    }
+
+    .imgCertificados {
+        height: 300px;
+        width: 300px;
+    }
+
+    .DivCertificado {
+        gap: 3rem;
+    }
+}
+
+/* Portátiles y pantallas grandes (1025px en adelante) */
+@media (min-width: 1025px) {
+    .titleE {
+        font-size: 50px;
+    }
+
+    .imgCertificados {
+        height: 400px;
+        width: 400px;
+    }
+
+    .DivCertificado {
+        gap: 5rem;
+    }
 }
