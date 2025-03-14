@@ -30,8 +30,8 @@ export const About = () => {
 
                         <h3 className="titleP3">Back-end</h3>
                         <p className="P-Profile">tengo poco conocimiento de backend puedo crear APis, utilisar nodeJS y diferentes tecnologías de bases de datos.</p>
-                        <p>________________________________________________________</p>
                     </div>
+                    <p>________________________________________________________</p>
                 </div>
             </section>
         </>

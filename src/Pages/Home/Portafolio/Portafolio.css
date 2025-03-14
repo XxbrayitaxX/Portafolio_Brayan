@@ -1,0 +1,26 @@
+.sectionP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 190vh;
+}
+
+.imgP{
+    height: 400px;
+    width: 450px;
+    border-radius: 25px;
+}
+
+.titleP{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 0px 0px 50px 0px;
+}
+
+.DivPortafolio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual tamaño */
+    gap: 2rem; /* Espacio entre columnas */
+    margin: 0px 0px 80px 0px;
+}
